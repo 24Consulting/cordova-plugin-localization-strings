@@ -189,7 +189,7 @@ function getLocalStringXmlPath(context, lang) {
 
 function getResPath(context) {
     var path = require('path');
-    var locations = context.requireCordovaModule('cordova-lib/src/platforms/platforms').getPlatformApi('android').locations;
+    var locations = require('cordova-lib/src/platforms/platforms').getPlatformApi('android').locations;
 
     if (locations && locations.res) {
         return locations.res;
