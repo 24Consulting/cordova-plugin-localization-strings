@@ -34,7 +34,8 @@
     "xmldom": "^0.1.27",
     "q": "^1.5.1",
     "path": "^0.12.7",
-    "glob": "^7.1.3"
+    "glob": "^7.1.3",
+    "cordova-lib": "^9.0.0"
   },
   "devDependencies": {},
   "license": "MIT",
